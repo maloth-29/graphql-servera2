@@ -16,7 +16,7 @@ export const typeDefs=gql`
         rno:String!
         loc:String!
         }
-        input StudentsInput{
+        input StudentInput{
         name:String!
         rno:String!
         loc:String!
@@ -33,7 +33,7 @@ export const typeDefs=gql`
         type Mutation{
         saveUser:Boolean
         savePlayer(data:Player):Int
-        saveStudents(data:StudentsInput):JSON
+        saveStudent(data:StudentInput):JSON
 
         }
 

@@ -44,7 +44,7 @@ export const resolvers={
                 return 1;
                 
             },
-            saveStudents:async (a,inputData,c,d)=>{
+            saveStudent:async (a,inputData,c,d)=>{
                 try{
                 const data = inputData.data;
                 const db = await getDB();
